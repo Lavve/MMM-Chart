@@ -21,6 +21,9 @@
   "homepage": "git+https://github.com/snille/MMM-Chart#readme",
   "dependencies": {
     "chart.js": "latest",
-	"chartjs-plugin-zoom": "latest"
+    "chartjs-plugin-zoom": "latest"
+  },
+  "scripts": {
+    "preinstall": "node preinstall.js"
   }
 }
